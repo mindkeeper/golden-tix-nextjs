@@ -51,6 +51,7 @@ function Index() {
     });
     // // const [data, setData] = useState([]);
 
+    const [qrCodeText, setQRCodeText] = useState('');
     const [loading, setLoading] = useState(false)
     const [times, setTimes] = useState('')
     const LINK = process.env.NEXT_PUBLIC_BACKEND_URL;
@@ -66,8 +67,10 @@ function Index() {
                     }
                 })
             .then((res) => {
-                setQRCodeText(`${LINK}/api/booking/ticket/detail/${router.query.id}`);
+                setQRCodeText(`https://golden-tix-nextjs.vercel.app/ticket/${router.query.id}`);
+                console.log(qrCodeText);
                 // setData(res.data.data);
+
                 setTicket(res.data.data);
                 setSeat(res.data.data);
                 setTimes(res.data.data.time)
@@ -78,7 +81,6 @@ function Index() {
                 console.log(err);
             });
     }, [router.isReady]);
-    const [qrCodeText, setQRCodeText] = useState('');
     const costing = (price) => {
         return (
             "IDR " +
