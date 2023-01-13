@@ -99,3 +99,38 @@ You may also see any lint errors in the console.
 <img width="500" src="https://raw.githubusercontent.com/zainulrofa/golden-tix-nextjs/main/assets/details.PNG" alt="Movie details">
 
 </div>
+
+## Related Projects
+[Golden-Tix Backend](https://github.com/zainulrofa/golden-tix-backend)
+
+## Contributors
+
+<center>
+  <table>
+    <tr>
+    <td align="center">
+        <a href="https://github.com/zainulrofa">
+          <img width="100" ; src="https://res.cloudinary.com/dx7cvqczn/image/upload/v1667811029/coffee_addict/pic_default.png" alt="pic_default"><br/>
+          <sub><b>Zainul Rofa</b></sub>
+        </a>
+        </td>
+      <td align="center">
+        <a href="https://github.com/mindkeeper">
+          <img width="100" ; src="https://res.cloudinary.com/dx7cvqczn/image/upload/v1667811029/coffee_addict/pic_default.png" alt="pic_default"><br/>
+          <sub><b>Nur Cholis Majid</b></sub>
+        </a>
+        </td>
+        <td align="center">
+        <a href="https://github.com/rsad100">
+          <img width="100" ; src="https://res.cloudinary.com/dx7cvqczn/image/upload/v1667811029/coffee_addict/pic_default.png" alt="pic_default"><br/>
+          <sub><b>M. Arsyad Budiman</b></sub>
+        </a>
+        </td>
+        <td align="center">
+        <a href="https://github.com/rofiq999">
+          <img width="100" ; src="https://res.cloudinary.com/dx7cvqczn/image/upload/v1667811029/coffee_addict/pic_default.png" alt="pic_default"><br/>
+          <sub><b>Rofiq Hidayat</b></sub>
+        </a>
+        </td>
+  </table>
+</center>
